@@ -1,7 +1,7 @@
-Line 1: import sqlite3
-Line 2: import os
-Line 3: from flask import Flask, request, redirect, session, render_template_string
-Line 4: from datetime import date
+ import sqlite3
+ import os
+ from flask import Flask, request, redirect, session, render_template_string
+ from datetime import date
 
 app = Flask(__name__)
 app.secret_key = "fast-media-graphic-secret"
